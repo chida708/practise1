@@ -14,11 +14,7 @@ public class Fileupload {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		driver.get("https://www.demo.guru99.com/test/upload/");
-		driver.findElement(By.id("file_wraper0")).click();
-		Thread.sleep(3000);
-		//Runtime.getRuntime().exec("C:\\Users\\chidanand.birajdar\\Desktop\\Autoit\\File1.exe");
-		//Runtime.getRuntime().exec("C:\\Users\\chidanand.birajdar\\Desktop\\As\\AutoSuggetion_Actions.exe");
+		driver.get.gehfbdeeeeeeeesg
 		Runtime.getRuntime().exec("C:\\Users\\chidanand.birajdar\\Desktop\\As\\pic.exe");
 	}
 
