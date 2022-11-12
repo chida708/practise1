@@ -1,0 +1,25 @@
+package Parametrization;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Fileupload {
+	public static void main(String[] args) throws InterruptedException, IOException {
+		
+	     System.setProperty("webdriver.chrome.driver","C:\\Users\\chidanand.birajdar\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		driver.get("https://www.demo.guru99.com/test/upload/");
+		driver.findElement(By.id("file_wraper0")).click();
+		Thread.sleep(3000);
+		//Runtime.getRuntime().exec("C:\\Users\\chidanand.birajdar\\Desktop\\Autoit\\File1.exe");
+		//Runtime.getRuntime().exec("C:\\Users\\chidanand.birajdar\\Desktop\\As\\AutoSuggetion_Actions.exe");
+		Runtime.getRuntime().exec("C:\\Users\\chidanand.birajdar\\Desktop\\As\\pic.exe");
+	}
+
+}
